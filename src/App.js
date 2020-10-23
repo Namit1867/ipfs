@@ -37,8 +37,8 @@ class App extends Component {
     onClick = async () => {
 
     try{
-        this.setState({blockNumber:"waiting.."});
-        this.setState({gasUsed:"waiting..."});
+        // this.setState({blockNumber:this.state.});
+        // this.setState({gasUsed:"waiting..."});
 
         // get Transaction Receipt in console on click
         // See: https://web3js.readthedocs.io/en/1.0/web3-eth.html#gettransactionreceipt
